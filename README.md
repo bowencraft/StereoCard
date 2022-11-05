@@ -13,13 +13,13 @@ Itch.io page: [here](https://bowenwang0620.itch.io/stereocard)
 
 
 
-Reference for rendering mask:
+#### Reference for rendering mask:
 
 [Dynamic Rendering Masks - GameMaker](https://gamemaker.io/en/blog/dynamic-rendering-masks)
 
 
 
-### Instructions
+#### Usage Instructions:
 
 The card mask and parallax effects are implemented in the `draw` of the object `card_drawer`.
 Drag and drop, float effects are implemented in `step`.
