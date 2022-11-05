@@ -14,11 +14,12 @@ card_y = y;
 
 mouse_colli = false;
 drag = false;
+startPoint = [mouse_x,mouse_y];
 
 old_x = card_x;
 old_y = card_y;
 
-lerp_speed = 0.05;
+lerp_speed = 0.08;
 
 layer0_x = card_x;
 layer0_y = card_y;

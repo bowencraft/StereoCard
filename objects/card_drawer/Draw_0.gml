@@ -1,5 +1,4 @@
-/// @description 在此处插入描述 
-// 你可以在此编辑器中写入代码 
+/// @description draw sprites
 
 gpu_set_blendenable(false)
 gpu_set_colorwriteenable(false,false,false,true);
@@ -16,12 +15,14 @@ offset3_y =
 sign(offset3_y) * border_value;
 layer3_x = lerp(layer3_x,old_x + offset3_x,lerp_speed);
 layer3_y = lerp(layer3_y,old_y + offset3_y,lerp_speed);
-// layer sep
+// card banner axis calculating
 
 draw_set_alpha(1);
 draw_sprite(layer_mask,0, layer3_x,layer3_y);
 gpu_set_blendenable(true);
 gpu_set_colorwriteenable(true,true,true,true);
+
+
 
 offset0_x =  (layer0_x - mouse_x) / index0_speed;
 offset0_y = (layer0_y - mouse_y) / index0_speed;
